@@ -1,0 +1,12 @@
+[package]
+name = "subextreme"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }  # إزالة "blocking" لأنك تستخدم غير المتزامن
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+ctrlc = "3.2"
+colored = "2.0"
+clap = "4.5"
