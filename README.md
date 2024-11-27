@@ -36,6 +36,8 @@ After installation, reload the environment:
 
 ```bash
 source $HOME/.cargo/env
+sudo apt install pkg-config -y
+sudo apt install libssl-dev -y
 ```
 
 ---
@@ -56,8 +58,6 @@ cd subextreme
 Use `cargo` to build the tool:
 
 ```bash
-sudo apt install pkg-config -y
-sudo apt install libssl-dev -y
 cargo build --release
 ```
 
